@@ -99,7 +99,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		/* background: #ffffff; */
+		background-color: #fdf5e6; /* Off-white/cream base */
+    background-image: 
+        linear-gradient(135deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent),
+        linear-gradient(135deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);
+    background-size: 50px 50px;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -152,8 +157,13 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
+		/* background-color: #ffffff; */
 		color: #000000;
+		background-color: #fafafa; /* Off-white/cream base */
+    background-image: 
+        linear-gradient(135deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent),
+        linear-gradient(135deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);
+    background-size: 50px 50px;
 	}
 
 	body, input, select, textarea {
@@ -7344,6 +7354,7 @@ input, select, textarea {
 	}
 
 /* Items (transitions) */
+
 
 	.items.onload-fade-in > * > .inner {
 		-moz-transition: opacity 0.75s ease-in-out;
